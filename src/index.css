@@ -1,0 +1,11 @@
+
+
+body {
+  background-color: whitesmoke; 
+/* background-image: url('./Home/img/race.gif'); c2dde6 bccbde  */;
+   user-select: none;
+}
+
+img{
+  pointer-events: none;
+}

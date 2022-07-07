@@ -1,0 +1,75 @@
+.soon{
+  color:#431c5d;
+}
+
+
+section {
+    flex: 1 1 auto;
+  }
+  
+  .countdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .countdown ul {
+    display: flex;
+    gap: 2rem
+  }
+  .countdown .clock-item {
+    list-style: none;
+    width: 70px;
+    height: auto;
+  }
+  .countdown .clock-item .count-number {
+    background: #c2dde6;
+    color: #431c5d;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 4px 4px 0 0;
+  }
+  .countdown .clock-item .count-text {
+    background: #cdd422;
+    font-size: 1.1rem;
+    color: var(--bg-color);
+    padding: 0.5rem 0.7rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 0 0 4px 4px;
+  }
+  
+  .countdown h1 {
+    text-shadow: 2px 2px 0 black;
+    margin: 2rem 0;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #431c5d;
+    color: #e05915;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    box-shadow: 4px 4px 0 0 black;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+  }
+  .btn:hover {
+    box-shadow: none;
+  }
+ 
