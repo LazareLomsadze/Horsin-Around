@@ -54,7 +54,7 @@ const Road = () => {
     <h4 className="vertical-timeline-element-subtitle">Third Step</h4>
     <ul>
       <li>⚫Creating horse race game</li>
-      <li>⚫Building market for ingame items</li>
+      <li>⚫Building market for in-game items</li>
       <li>⚫Designing competitive & smart racing ecosystem</li>
       <li>⚫Hosting the competition</li>
 
@@ -64,7 +64,6 @@ const Road = () => {
     className="vertical-timeline-element--education"
     contentStyle={{ background: '#04C4D9', color: '#000000' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="In The Future"
     iconStyle={{ background: '#000000', color: '#fff' }}
     icon={<i class="fa-solid fa-hat-cowboy"></i> }
   >

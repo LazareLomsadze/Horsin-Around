@@ -33,10 +33,10 @@ const MTeam = () => {
                     <h3>ELENE</h3>
                     <p>Head of Human Resources</p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='https://www.linkedin.com/in/elene-oghadze-bb90641a2/' >
+                        <a href='https://www.linkedin.com/in/elene-oghadze-bb90641a2/' target="_blank" >
                         <Linkdn />
                         </a>
-                        <a href="https://twitter.com/Eleniko08019686">
+                        <a href="https://twitter.com/Eleniko08019686" target="_blank">
                         <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black'/>
                         </a>
                     </div>
@@ -51,10 +51,10 @@ const MTeam = () => {
                     <h3>ZURA</h3>
                     <p>Head Of Art</p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='https://www.linkedin.com/in/zurab-supatashvili-5b0a25188/' >
+                        <a href='https://www.linkedin.com/in/zurab-supatashvili-5b0a25188/' target="_blank" >
                         <Linkdn />
                         </a>
-                        <a href="https://twitter.com/helldemos">
+                        <a href="https://twitter.com/helldemos" target="_blank">
                         <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black'/>
                         </a>
                     </div>
@@ -68,10 +68,10 @@ const MTeam = () => {
                     <h3>PADRE</h3>
                     <p>Head Of Marketing</p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='/' >
+                        <a href='https://www.linkedin.com/in/saba-khimshiashvili-44637817a/'  target="_blank" >
                         <Linkdn />
                         </a>
-                        <a href="/">
+                        <a href="https://twitter.com/padr_es_peaks/"  target="_blank">
                         <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black'/>
                         </a>
                     </div>
@@ -85,10 +85,10 @@ const MTeam = () => {
                     <h3>LUKA</h3>
                     <p>Head Of Community</p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='https://www.linkedin.com/in/luka-darchia-61225b199/' >
+                        <a href='https://www.linkedin.com/in/luka-darchia-61225b199/' target="_blank" >
                         <Linkdn />
                         </a>
-                        <a href="/">
+                        <a href="/" target="_blank">
                         <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black'/>
                         </a>
                     </div>
@@ -102,10 +102,10 @@ const MTeam = () => {
                     <h3>LAZO</h3>
                     <p>Head Of Development</p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='https://www.linkedin.com/in/lazare-lomsadze-b43102228/' >
+                        <a href='https://www.linkedin.com/in/lazare-lomsadze-b43102228/' target="_blank" >
                         <Linkdn />
                         </a>
-                        <a href="https://twitter.com/Blockchain_001">
+                        <a href="https://twitter.com/Blockchain_001" target="_blank" >
                         <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black'/>
                         </a>
                     </div>
@@ -119,7 +119,7 @@ const MTeam = () => {
                     <h3>Horse`Around</h3>
                     <p>Owner of the Unicorn</p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='/' >
+                        <a href='/'  >
                         <Linkdn />
                         </a>
                         <a href="/">

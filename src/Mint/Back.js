@@ -69,7 +69,7 @@ const Back = () => {
             rel="noopener noreferrer"
             className="hero-btn btn"
           >
-            <span>Join the Catmmunity</span>
+            <span>Join the Community</span>
           </a>
         </div>
       </section>
