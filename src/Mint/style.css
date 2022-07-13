@@ -63,13 +63,13 @@ section {
     font-size: 1rem;
     text-transform: capitalize;
     transition: all 0.3s ease;
-    box-shadow: 4px 4px 0 0 black;
     cursor: pointer;
     position: relative;
     text-decoration: none;
     outline: none;
+    box-shadow: none;
   }
   .btn:hover {
-    box-shadow: none;
+    box-shadow: 4px 4px 0 0 black;
   }
  

@@ -69,12 +69,14 @@ color: #e05915;
 font-size:2em;
 text-align:left;
 margin-top:10vh;
+font-family: 'Ultra';
+
 `
 const SmTitles = styled.h3`
 color: #431c5d;
-font-size:1.5em;
+font-size:1em;
 text-align:left;
-font-family: 'aladin';
+font-family: 'Ultra';
 font-weight: 400;
 `
 const STitles = styled.h3`
@@ -82,7 +84,7 @@ color: #000000;
 margin-top:25px;
 font-size:1.5em;
 text-align:left;
-font-family: "caesar-dressing";
+font-family: "Ultra";
 `
 
 
@@ -115,12 +117,12 @@ const Whitepaper = () => {
         <SmTitles>Unicorn</SmTitles> */}
         <div>
           <SmTitle>
-          𝑺𝑻𝑨𝑻𝑬𝑴𝑬𝑵𝑻 🐴
+          STATEMENT 🐴
           </SmTitle>
           <SmTitles>
           Ladies and gentlemen, warm welcome into the jockey establishment. Horsin’ Around is a plain but gainful Web3 Horse Racing platform. The project has a place only for go-getters, the ones who can become part of the fastest growing and competitive horse racing ecosystem. Simple gameplay with many benefits. Introducing a collection of 3,335 steeds. Horsin’ Around is the home of Sham the Racers (quantity -  3,333) and 2 the most exceptional and rare purebreds, Secretariat the Golden Crown, and Bubble Gum the Rainbow Tail. Each horse has different powers and skills that help them to win the contest or gain profit.           </SmTitles>
           <SmTitle>
-          𝑯𝑶𝑹𝑺𝑬𝑷𝑶𝑾𝑬𝑹𝑺 🔋
+          HORSEPOWERS 🔋
           </SmTitle>
           <SmTitles>
           Decimal Scale 
@@ -132,7 +134,7 @@ const Whitepaper = () => {
           <SmTitles className='mt-3'>
           These abilities and overall rating define the winning horses in the races. However, horses would need conformable fortune as well to help holders win the grand prize accumulated from 30% of volume trade. The collection unites 3,333 racer horses. They are distributed into 3 levels: lvl1, lvl 3, lvl 5. Holders are able to improve the powers and overall rating of the owned horse with items from the market (Hay, Water, Opioid, and Powder). Bubble Gum the Rainbow Tail doesn’t participate in the races but its holder has a right over whole gains generated from the market. Secretariat the Golden Crown holder will take 10% from each and every competition.              </SmTitles>
           <SmTitle>
-          𝑹𝑨𝑪𝑬 🏁
+          RACE 🏁
           </SmTitle>
           <SmTitles>
       <span className='block text-green-700'>[FIRST STAGE]</span>    
@@ -147,7 +149,7 @@ const Whitepaper = () => {
 
           </SmTitles>
           <SmTitle>
-          𝑼𝑻𝑰𝑳𝑰𝑻𝒀 💰
+          UTILITY 💰
           </SmTitle>
           <SmTitles>
           Benefits are as simple to understand as the gameplay, only holders, or as we call them jockeys will have exclusive access to the platform, which means only holders will be able to participate in the game and watch it live on the website. By purchasing Horsin’ Around #NFT, you become part of the jockey establishment, which means you train and fight to chase the prizes. As a reward, every jockey will get one item from 4, that strengthens horses. However, compared to the grand prize, 30% of the volume trade divided among 3 winners, these benefits are not much. As mentioned in ‘RACE’, after sold out we will host 3 types of races:          </SmTitles>
@@ -174,7 +176,7 @@ const Whitepaper = () => {
 
           </SmTitles>
           <SmTitle>
-          𝑮𝑨𝑴𝑬𝑷𝑳𝑨𝒀 🕹️
+          GAMEPLAY 🕹️
           </SmTitle>
           <SmTitles>
           Building a horse racing ecosystem, competitive, interesting, and dragging. After dropping and selling out, holders enter the digital environment where they should prepare for the race, feed, and boost their horses’ powers to win the competitions. Hay and Water are necessary to keep horses in shape, Opioid and Powder push up the horsepowers, these items help holders to be competitive and ready for the races. Jockeys have 8 weeks to get to know the gameplay and be up for the contest.

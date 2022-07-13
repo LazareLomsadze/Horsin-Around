@@ -15,11 +15,12 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
   return (
     <div className="text-black ">
       <ul className="flex flex-row ">
-        <li className="z-[51] w-16">
+        <li className="z-[51] w-14">
           <Link to="/">
           <img src={Gold} alt="logo" className="Lborder" />
           </Link>
         </li>
+        <li className="logotx" > Horsin' Around</li>
         <div className="flex lg:hidden">
           <input type="checkbox" id="active" />
           <label htmlFor="active" className="menu-btn">
@@ -41,7 +42,7 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
                 </Link>
               </li>
               <li>
-                <Link to="/Racemap" className={third ? "text-stafilo" : "text-ia" }>
+                <Link to="/Racemap" className={third ? "text-stafilo" : "text-ia"}>
                   Racemap</Link>
               </li>
               <li>
@@ -87,8 +88,8 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
           <li
             className={` ml-auto   ${
               first
-                ? "border-2 border-solid px-2 border-ia text-stafilo "
-                : " hover:border-ia hover:border-2 hover:border-solid hover:px-2 hover:text-white hover:bg-stafilo"
+                ? " text-stafilo "
+                : "  hover:text-stafilo "
             } `}
           >
             <Link to="/">Home</Link>
@@ -96,18 +97,18 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
           <li 
             className={` ml-auto   ${
               second
-                ? "border-2 border-solid px-2 border-ia text-stafilo "
-                : " hover:border-ia hover:border-2 hover:border-solid hover:px-2 hover:text-white hover:bg-stafilo"
+                ? " text-stafilo "
+                : "  hover:text-stafilo "
             } `}
           
           >
             <Link to="/Whitepaper">Whitepaper</Link>
           </li>
           <li 
-         className={` ml-auto   ${
+        className={` ml-auto   ${
           third
-            ? "border-2 border-solid px-2 border-ia text-stafilo "
-            : " hover:border-ia hover:border-2 hover:border-solid hover:px-2 hover:text-white hover:bg-stafilo"
+            ? " text-stafilo "
+            : "  hover:text-stafilo "
         } `}
       
           >
@@ -116,8 +117,8 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
           <li 
          className={` ml-auto   ${
           fourth
-            ? "border-2 border-solid px-2 border-ia text-stafilo "
-            : " hover:border-ia hover:border-2 hover:border-solid hover:px-2 hover:text-white hover:bg-stafilo"
+            ? " text-stafilo "
+            : "  hover:text-stafilo "
         } `}
           >
             <Link to="/Mint">Mint</Link>
@@ -125,8 +126,8 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
           <li 
           className={` ml-auto   ${
             fifth
-              ? "border-2 border-solid px-2 border-ia text-stafilo "
-              : " hover:border-ia hover:border-2 hover:border-solid hover:px-2 hover:text-white hover:bg-stafilo"
+              ? " text-stafilo "
+              : "  hover:text-stafilo "
           } `}
           >
             <Link to="/Team">Team</Link>

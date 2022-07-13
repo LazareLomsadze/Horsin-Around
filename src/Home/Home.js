@@ -1,8 +1,7 @@
-import styled from "styled-components";
+// import styled from "styled-components";
 import Nav from "../../src/Nav/";
 import gif from './img/race.gif'
-// import Gold from './img/gold.mkv'
-// import Videos from './img/94.mp4'
+
 
 import { createGlobalStyle } from 'styled-components'
 
@@ -18,13 +17,13 @@ const GlobalStyle = createGlobalStyle`
 `
 
 
-const Title = styled.h1`
-font-family:"Akronim";
-font-size: 4em;
-color:#8E2800;
-text-align:start;
+// const Title = styled.h1`
+// font-family:"Akronim";
+// font-size: 4em;
+// color:#8E2800;
+// text-align:start;
 
-`
+// `
 
 
 
@@ -41,10 +40,10 @@ const Home = () => {
       <Nav first />
 
       <div className="mt-20">
-        <Title>
+        {/* <Title>
         Horsin' Around
         </Title>
-      
+       */}
       </div>
     </>
   );

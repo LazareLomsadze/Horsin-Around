@@ -1,4 +1,9 @@
-
+.logotx{
+  font-family: "Ultra", serif;
+  font-size: 1em;
+  color:#000000;
+  margin-top: 8px;
+}
   .wrapper{
     z-index: 50;
     position: fixed;
