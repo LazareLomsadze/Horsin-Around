@@ -8,7 +8,7 @@ import Road from './components/Road'
 const Racemap = () => {
   return (
     <>
-    <Nav Third />
+    <Nav third />
     <div className='mt-20' >
         
     <Road />

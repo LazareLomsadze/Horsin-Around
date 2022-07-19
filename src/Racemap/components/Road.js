@@ -1,6 +1,13 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import "./style.css"
+import { FaHatCowboy } from "react-icons/fa"
+import { FaHorseHead } from "react-icons/fa"
+import { FaHorse } from "react-icons/fa"
+import { GiHorseHead } from "react-icons/gi"
+
+
 
 const Road = () => {
   return (
@@ -13,8 +20,8 @@ const Road = () => {
     contentStyle={{ background: '#04C4D9', color: '#000000' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="|01/06/2022 - 24/06/2022|"
-    iconStyle={{ background: '#000000', color: '#fff' }}
-    icon={<i class="fa-solid fa-hat-cowboy"></i> }
+    iconStyle={{ background: 'whitesmoke', color: '#fff' }}
+    icon={<FaHatCowboy fill='black'/> }
   >
     <h3 className="vertical-timeline-element-title">01</h3>
     <h4 className="vertical-timeline-element-subtitle">First Step</h4>
@@ -30,8 +37,8 @@ const Road = () => {
     className="vertical-timeline-element--work"
     contentStyle={{ background: '#04C4D9', color: '#000000' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    iconStyle={{ background: '#e05915', color: '#fff' }}
-    icon={<i class="fa-solid fa-hat-cowboy"></i> }
+    iconStyle={{ background: 'whitesmoke', color: '#fff' }}
+    icon={<FaHorseHead fill='black'/> }
   >
     <h3 className="vertical-timeline-element-title">02</h3>
     <h4 className="vertical-timeline-element-subtitle">Second Step</h4>
@@ -47,8 +54,8 @@ const Road = () => {
     contentStyle={{ background: '#04C4D9', color: '#000000' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="|After sold out|"
-    iconStyle={{ background: '#431c5d', color: '#fff' }}
-    icon={<i class="fa-solid fa-hat-cowboy"></i> }
+    iconStyle={{ background: 'whitesmoke', color: '#fff' }}
+    icon={<FaHorse fill='black'/> }
   >
     <h3 className="vertical-timeline-element-title">03</h3>
     <h4 className="vertical-timeline-element-subtitle">Third Step</h4>
@@ -64,8 +71,8 @@ const Road = () => {
     className="vertical-timeline-element--education"
     contentStyle={{ background: '#04C4D9', color: '#000000' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    iconStyle={{ background: '#000000', color: '#fff' }}
-    icon={<i class="fa-solid fa-hat-cowboy"></i> }
+    iconStyle={{ background: 'whitesmoke', color: '#fff' }}
+    icon={<GiHorseHead fill='black'/> }
   >
     <h3 className="vertical-timeline-element-title">04</h3>
     <h4 className="vertical-timeline-element-subtitle">Fourth Step</h4>

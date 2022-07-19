@@ -1,0 +1,16 @@
+.vertical-timeline-element-icon svg {
+    display: block;
+    width: 59px!important;
+    height: 47px !important;
+    margin-top: 4px !important;
+    position: initial !important;
+    margin-left: 0px!important;
+}
+
+@media (max-width:1169px) {
+    .vertical-timeline-element-icon svg {
+        width: 40px!important;
+        height: 35px !important;
+        margin-top: 1px !important;
+    }
+}
