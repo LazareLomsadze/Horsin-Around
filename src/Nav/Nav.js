@@ -69,13 +69,13 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
               </li>
               <li>
                 {" "}
-                <a href="https://discord.gg/7C3H58qr" target="_blank" rel="noopener noreferrer"  className="logo">
+                <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer"  className="logo">
                   <Discord />
                 </a>
               </li>
               <li>
                 {" "}
-                <a href="https://discord.gg/7C3H58qr" target="_blank" rel="noopener noreferrer"  className="logo">
+                <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer"  className="logo">
                   <img src={opensea} alt="opensea" />
                 </a>
               </li>
@@ -145,12 +145,12 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
             </a>
           </li>
           <li className="ml-4 w-10">
-            <a href="https://discord.gg/7C3H58qr" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer">
               <Discord />
             </a>
           </li>
           <li className="mx-4 w-10">
-            <a href="https://discord.gg/7C3H58qr" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer">
               <img src={opensea} alt="opensea" />
             </a>
           </li>
