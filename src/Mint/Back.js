@@ -40,7 +40,7 @@ const Back = () => {
           <ul
             id="countdown"
             className="count-down"
-            data-date="July 20, 2022 4:00:00 PM UTC"
+            data-date="July 20, 2022 7:00:00 PM UTC"
           >
             <li className="clock-item">
               <span className="count-number days"></span>
