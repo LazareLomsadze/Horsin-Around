@@ -76,13 +76,13 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
               </li>
               <li>
                 {" "}
-                <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer"  className="logo">
+                <a href="https://opensea.io/collection/horsinaround3335" target="_blank" rel="noopener noreferrer"  className="logo">
                   <img src={opensea} alt="opensea" className="invert-[0.7]"/>
                 </a>
               </li>
               <li className="self-center">
                 {" "}
-                <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer"  className="logo">
+                <a href="https://etherscan.io/address/0xafc9dd4f13250f69e8f2191312835ff42d88dcf1" target="_blank" rel="noopener noreferrer"  className="logo">
                   <Etherscan/>
                 </a>
               </li>
@@ -157,12 +157,12 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
             </a>
           </li>
           <li className="!ml-4 w-10">
-            <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer">
+            <a href="https://opensea.io/collection/horsinaround3335" target="_blank" rel="noopener noreferrer">
               <img src={opensea} alt="opensea" className="invert-[0.7]"/>
             </a>
           </li>
           <li className="!mx-4 w-8">
-            <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer">
+            <a href="https://etherscan.io/address/0xafc9dd4f13250f69e8f2191312835ff42d88dcf1" target="_blank" rel="noopener noreferrer">
               <Etherscan/>
             </a>
           </li>
