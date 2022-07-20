@@ -65,7 +65,7 @@
     border-radius: 50px;
     background: #FFF0A5;
     position: relative;
-    line-height: 50px;
+    line-height: 43px;
     transition: all 0.3s ease;
   }
   .wrapper ul li a:after{
@@ -81,7 +81,7 @@
     border-radius: 50px;
     transform: scaleY(0);
     z-index: -1;
-    animation: rotate 1.5s linear infinite;
+    animation: rotat 1.5s linear infinite;
     transition: transform 0.3s ease;
   }
   .wrapper ul li a:hover:after{
@@ -110,7 +110,7 @@
     font-weight: 600;
   }
   
-  @keyframes rotate {
+  @keyframes rotat {
     0%{
       filter: hue-rotate(0deg);
     }
@@ -119,24 +119,36 @@
     }
   }
 
-  @media (max-width:482px) {
-    .wrapper ul li a{
-
-        font-size: 25px;
-
-      }
-      .wrapper ul li{
-        margin: 8px 0;
-      }
+    @media (max-width:720px) {
       .wrapper ul li a:after{
-        position: unset;
-        
+        position: absolute;
+        content: "";
+        background: rgb(201, 139, 6);
+      
+        /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+        width: 0%;
+        height: 0%;
+        left: 0%;
+        top: 0%; /* if the font is 'Oswald'*/
+        border-radius: 0px;
+        transform: scaleY(0);
+        z-index: -1;
+        animation: none;
+        transition: none;
       }
-    }
-  
+      .wrapper ul li a{
+        padding: 3px 5px;
+        border-radius: 0px;
+        line-height: 37px;
+        transition: none;
+      }
+      }
+      
+    
     .size{
       display: flex;
-      align-items: centerz;
+      width: 86%;
+      margin: auto;
     }
     #sz{
       margin-left: 17px!important;
@@ -156,5 +168,35 @@
     }
 
     .logo img{
-      max-width: 117%;
+      max-width: 100%;
     }
+    .logo #s{
+      max-width: 95%;
+    }
+
+    @media (max-width:482px) {
+      .wrapper ul li a{
+  
+          font-size: 25px;
+          line-height: 34px;
+        }
+        .wrapper ul li{
+          margin: 8px 0;
+        }
+        .wrapper ul li a:after{
+          position: unset;
+          
+        }
+        .size{
+          width: 93%;
+        }
+      }
+      @media (max-width:342px) {
+        .wrapper ul li a{
+    
+            line-height: 30px;
+          }
+          .size{
+            width: 100%;
+          }
+        }

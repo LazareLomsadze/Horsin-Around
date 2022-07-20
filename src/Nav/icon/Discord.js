@@ -16,7 +16,7 @@ const Box = styled.div`
 const Discord = () => {
   return (
     <Box>
-        <img src={Discordi} alt='discord' />
+        <img src={Discordi} alt='discord'className="invert-[0.7]" />
     </Box>
   )
 }

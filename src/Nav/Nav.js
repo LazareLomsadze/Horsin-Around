@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import  Gold from "./logos/Gold.png";
 import Discord from "./icon/Discord";
 import opensea from "./logos/open-sea.png";
+import Etherscan from "./icon/Etherscan";
 import Twitter from "../Nav/icon/Twitter";
 import "./style.css";
 import { useState } from "react";
@@ -53,12 +54,12 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
                 <Link to="/Team" className={fifth ? "text-stafilo" : "text-ia"} >
                   Team</Link>
               </li>
-              <li>
-                <Link to="/Race" >
+              <li className=' cursor-not-allowed'>
+                <Link to="/Race" className="pointer-events-none">
                   Race</Link>
               </li>
-              <li>
-                <Link to="/Market">Market</Link>
+              <li className=' cursor-not-allowed'>
+                <Link to="/Market" className="pointer-events-none">Market</Link>
               </li>
               <div className="size">
               <li id="sz">
@@ -76,7 +77,13 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
               <li>
                 {" "}
                 <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer"  className="logo">
-                  <img src={opensea} alt="opensea" />
+                  <img src={opensea} alt="opensea" className="invert-[0.7]"/>
+                </a>
+              </li>
+              <li className="self-center">
+                {" "}
+                <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer"  className="logo">
+                  <Etherscan/>
                 </a>
               </li>
             </div>
@@ -139,19 +146,24 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
           <li className=' ml-9 text-black cursor-not-allowed'>
             <Link to="/Market" className="pointer-events-none">Market</Link>
           </li>
-          <li className="ml-20 w-10  ">
+          <li className="!ml-8 w-10  ">
             <a href="https://twitter.com/Horsinft_Around" target="_blank" rel="noopener noreferrer">
             <Twitter />
             </a>
           </li>
-          <li className="ml-4 w-10">
+          <li className="!ml-4 w-10">
             <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer">
               <Discord />
             </a>
           </li>
-          <li className="mx-4 w-10">
+          <li className="!ml-4 w-10">
             <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer">
-              <img src={opensea} alt="opensea" />
+              <img src={opensea} alt="opensea" className="invert-[0.7]"/>
+            </a>
+          </li>
+          <li className="!mx-4 w-8">
+            <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer">
+              <Etherscan/>
             </a>
           </li>
         </div>

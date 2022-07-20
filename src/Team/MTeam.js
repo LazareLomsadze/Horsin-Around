@@ -33,10 +33,10 @@ const MTeam = () => {
                     <h3>ELENE</h3>
                     <p>Team establisher </p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='https://www.linkedin.com/in/elene-oghadze-bb90641a2/' target="_blank" >
+                        <a href='https://www.linkedin.com/in/elene-oghadze-bb90641a2/' target="_blank"  rel="noopener noreferrer">
                         <Linkdn />
                         </a>
-                        <a href="https://twitter.com/Eleniko08019686" target="_blank">
+                        <a href="https://twitter.com/Eleniko08019686" target="_blank"  rel="noopener noreferrer">
                         <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black'/>
                         </a>
                     </div>
@@ -51,11 +51,11 @@ const MTeam = () => {
                     <h3>ZURA</h3>
                     <p>Sculptor of NFTs </p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='https://www.linkedin.com/in/zurab-supatashvili-5b0a25188/' target="_blank" >
+                        <a href='https://www.linkedin.com/in/zurab-supatashvili-5b0a25188/' target="_blank"  rel="noopener noreferrer">
                         <Linkdn />
                         </a>
-                        <a href="https://twitter.com/helldemos" target="_blank">
-                        <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black'/>
+                        <a href="https://twitter.com/helldemos" target="_blank"  rel="noopener noreferrer">
+                        <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black' />
                         </a>
                     </div>
                 </div>
@@ -68,10 +68,10 @@ const MTeam = () => {
                     <h3>PADRE</h3>
                     <p>Chronicler of Horsinft_Around </p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='https://www.linkedin.com/in/saba-khimshiashvili-44637817a/'  target="_blank" >
+                        <a href='https://www.linkedin.com/in/saba-khimshiashvili-44637817a/'  target="_blank"  rel="noopener noreferrer">
                         <Linkdn />
                         </a>
-                        <a href="https://twitter.com/padr_es_peaks/"  target="_blank">
+                        <a href="https://twitter.com/padr_es_peaks/"  target="_blank"  rel="noopener noreferrer">
                         <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black'/>
                         </a>
                     </div>
@@ -85,7 +85,7 @@ const MTeam = () => {
                     <h3>LUKA</h3>
                     <p>Narrator among social media platforms </p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='https://www.linkedin.com/in/luka-darchia-61225b199/' target="_blank" >
+                        <a href='https://www.linkedin.com/in/luka-darchia-61225b199/' target="_blank"  rel="noopener noreferrer">
                         <Linkdn />
                         </a>
                     </div>
@@ -99,10 +99,10 @@ const MTeam = () => {
                     <h3>LAZO</h3>
                     <p>Grand Master of Coding </p>
                     <div className='icon flex flex-wrap items-center'>
-                        <a href='https://www.linkedin.com/in/lazare-lomsadze-b43102228/' target="_blank" >
+                        <a href='https://www.linkedin.com/in/lazare-lomsadze-b43102228/' target="_blank"  rel="noopener noreferrer">
                         <Linkdn />
                         </a>
-                        <a href="https://twitter.com/Blockchain_001" target="_blank" >
+                        <a href="https://twitter.com/Blockchain_001" target="_blank"  rel="noopener noreferrer" >
                         <AiFillTwitterCircle className='w-[27px] h-[27px] ml-2 fill-black'/>
                         </a>
                     </div>

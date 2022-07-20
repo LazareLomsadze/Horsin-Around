@@ -9,7 +9,7 @@ const Icon = styled.div`
 const Twitter = () => {
   return (
     <Icon>
-        <img src={Twitteri} alt='twitter' />
+        <img src={Twitteri} alt='twitter' className="invert-[0.7]" />
     </Icon>
   )
 }
