@@ -63,7 +63,7 @@ function App() {
         <VscDebugStart id='icon' className="w-[23px] h-[23px] "/>
         <VscDebugPause id='icon2' className="w-[23px] h-[23px] hidden "/>
         </button>
-        <audio src={audi} id="my_audio" loop="loop" autoPlay></audio>
+        <audio src={audi} id="my_audio" loop="loop"></audio>
    
       </div>
       </div>
