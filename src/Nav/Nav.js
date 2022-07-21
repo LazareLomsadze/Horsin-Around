@@ -47,9 +47,10 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
                   Racemap</Link>
               </li>
               <li>
-                <Link to="/Mint" className={fourth ? "text-stafilo" : "text-ia"}>
-                  Mint</Link>
+                <a href="https://horsinaround.netlify.app/" className={fourth ? "text-stafilo" : "text-ia"}>
+                  Mint</a>
               </li>
+              
               <li>
                 <Link to="/Team" className={fifth ? "text-stafilo" : "text-ia"} >
                   Team</Link>
