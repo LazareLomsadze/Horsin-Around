@@ -2,7 +2,6 @@ import Home from "./Home";
 import Whitepaper from "./Whitepaper";
 import Racemap from "./Racemap";
 import Mint from "./Mint";
-import Team from "./Team/Team";
 import { Routes, Route } from "react-router-dom";
 import GlobalStyles from "./style/GlobalStyles";
 import {VscDebugStart} from 'react-icons/vsc'
@@ -56,7 +55,6 @@ function App() {
         <Route path="Whitepaper" element={<Whitepaper />} />
         <Route path="Racemap" element={ <Racemap /> } />
         <Route path="Mint" element={ <Mint /> } />
-        <Route path="Team" element={ <Team /> } />
       </Routes>
       <div className="hidden md:block fixed bottom-12 left-3 px-8 z-5"><div class=" relative "> 
         <button className="absolute duration-300 hover:scale-110 active:scale-95 transform flex items-center justify-center -top-5 -right-5 z-30 h-10 w-10 border-4  rounded-full overflow-hidden bg-white  border-olive" id='button'>

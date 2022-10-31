@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import Nav from '../Nav'
 // import Gifi from '../Home/img/race.gif'
-import Idk from '../Team/img/idk.jpg'
+import Idk from './idk.jpg'
 
 const Box = styled.div`
 width:200px;

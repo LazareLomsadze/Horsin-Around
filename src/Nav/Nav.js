@@ -7,7 +7,7 @@ import Twitter from "../Nav/icon/Twitter";
 import "./style.css";
 import { useState } from "react";
 
-const Nav = ({ first, second, third, fourth, fifth}) => {
+const Nav = ({ first, second, third, fourth}) => {
 
   const [isshown, setshown] = useState(true);
   const ChangeNav = () => {
@@ -50,11 +50,6 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
                 <a href="https://horsinaround.netlify.app/" className={fourth ? "text-stafilo" : "text-ia"}>
                   Mint</a>
               </li>
-              
-              <li>
-                <Link to="/Team" className={fifth ? "text-stafilo" : "text-ia"} >
-                  Team</Link>
-              </li>
               <li className=' cursor-not-allowed'>
                 <Link to="/Race" className="pointer-events-none">
                   Race</Link>
@@ -71,7 +66,7 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
               </li>
               <li>
                 {" "}
-                <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer"  className="logo">
+                <a href="https://discord.gg/hu3MB8MU" target="_blank" rel="noopener noreferrer"  className="logo">
                   <Discord />
                 </a>
               </li>
@@ -131,15 +126,6 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
           >
             <Link to="/Mint">Mint</Link>
           </li>
-          <li 
-          className={` ml-auto   ${
-            fifth
-              ? " text-stafilo "
-              : "  hover:text-stafilo "
-          } `}
-          >
-            <Link to="/Team">Team</Link>
-          </li>
           {/* border-2 border-solid px-5 border-black for  border */}
           <li className=' ml-9 text-black cursor-not-allowed'>
             <Link to="/Race" className="pointer-events-none">Race</Link>
@@ -153,7 +139,7 @@ const Nav = ({ first, second, third, fourth, fifth}) => {
             </a>
           </li>
           <li className="!ml-4 w-10">
-            <a href="https://discord.gg/MRnfweur" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/hu3MB8MU" target="_blank" rel="noopener noreferrer">
               <Discord />
             </a>
           </li>
